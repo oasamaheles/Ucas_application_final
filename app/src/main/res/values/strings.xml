@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Motors</string>
+    <string name="act_add_customer_title">Create new Customer</string>
+    <string name="act_add_customer_name1">User Name</string>
+    <string name="act_add_customer_address">Address</string>
+    <string name="act_add_customer_code">Subscription number</string>
+    <string name="act_add_customer_phone">Phone Number</string>
+    <string name="act_add_customer_add">Add Customer</string>
+    /////////////////////////////////////////////////////////
+    <string name="act_back_home_change">The password change process</string>
+    <string name="act_back_home_successfully">has been completed successfully</string>
+    <string name="act_back_home_logIn">Log in</string>
+    //////////////////////////////////////////////////
+    <string name="act_changePassword_title">Change Password</string>
+    <string name="act_changePassword_currentP">Current Password</string>
+    <string name="act_changePassword_newP">New Password</string>
+    <string name="act_changePassword_confirmP">Confirm Password</string>
+    <string name="act_changePassword_update">Update</string>
+    ////////////////////////////////////////////////////////
+    <string name="act_setting_title">Settings</string>
+    <string name="act_setting_account">Account</string>
+    <string name="act_setting_changePassword">Change Password</string>
+    <string name="act_setting_others">Others</string>
+    <string name="act_setting_privacy">Privacy Policy</string>
+    <string name="act_setting_terms">Terms and Conditions</string>
+    <string name="act_setting_logout">Logout</string>
+    <string name="act_setting_payments">Payments</string>
+    <string name="act_setting_calculator">Calculator</string>
+    /////////////////////////////////////////////////////////
+    <string name="act_login_title">Login</string>
+    <string name="act_login_password">Password</string>
+    <string name="act_login_dontHave">Don’t have an account? create new account</string>
+    ////////////////////////////////////////////////////////////////////////////////////
+    <string name="act_invoice">My Invoice</string>
+    //////////////////////////////////////////////
+    <string name="act_screen_title">Welcome</string>
+    <string name="act_screen_login">Login</string>
+    <string name="act_screen_signup">Signup</string>
+    ///////////////////////////////////////////////
+    <string name="act_signup_title">Signup</string>
+    <string name="act_signup_name">Name</string>
+    <string name="act_signup_subscription">Subscription number</string>
+    <string name="act_signup_email">Email Address</string>
+    <string name="act_signup_password">Password</string>
+    <string name="act_signup_repassword">Re_Password</string>
+    <string name="act_signup_signUp">Sign Up</string>
+    <string name="act_signup_already">Already have an account ? Sign in</string>
+    ////////////////////////////////////////////////////////////////////////////
+    <string name="act_item_recy">Paid</string>
+    /////////////////////////////////////////
+    <string name="act_addAdmin_title">Create New Admin</string>
+    <string name="act_addAdmin_add">Add Admin</string>
+    /////////////////////////////////////////////////
+    <string name="act_invoiceAn_name">Name</string>
+    <string name="act_invoiceAn_phone">Phone number</string>
+    <string name="act_invoiceAn_date">Date of Reading Month</string>
+    <string name="act_invoiceAn_counter">Counter number</string>
+    <string name="act_invoiceAn_current">Current Meter Reading</string>
+    <string name="act_invoiceAn_address">Address lane</string>
+    <string name="act_invoiceAn_sure">I am sure the Data is Correct.</string>
+    <string name="act_invoiceAn_send">Send Result</string>
+    /////////////////////////////////////////////////////
+    <string name="item_customer_name">Customer Name :</string>
+    <string name="item_customer_id">Customer Id :</string>
+    <string name="item_customer_date">Month Invoice :</string>
+    <string name="item_customer_balance">Balance :</string>
+    //////////////////////////////////////////////////////
+    <string name="act_address">Address :</string>
+    <string name="act_kilos">Consumption in kilos :</string>
+    <string name="act_old">Old Reading :</string>
+    <string name="act_new">New Reading :</string>
+    <string name="act_arrears">Arrears :</string>
+    <string name="act_unitPrice">Unit Price :</string>
+    <string name="act_balance">Balance :</string>
+    <string name="act_unpaid">Unpaid</string>
+    <string name="act_paid">Paid</string>
+
+    <string name="search">Search...</string>
+    <string name="finshSuccessfull">Finish Successful</string>
+    <string name="DoneChangePassword">Done Change Password</string>
+    <string name="ok">Ok</string>
+    <string name="profile">Profile</string>
+    <string name="userName">User Name</string>
+    <string name="userId">User Id</string>
+    <string name="subscriptionnumber">Subscription Number</string>
+
+    <string name="enterTheCorrectPassword">Please Enter the Correct Password</string>
+    <string name="pleaseCompleteAllVales">Please Completing all values</string>
+    <string name="checkInternet">Can not please Check the internet</string>
+
+    <string name="reSend">Re Send ?</string>
+
+    <string name="saved">Saved Success</string>
+    <string name="cant_saved">Can not Save check the internet</string>
+
+    <string name="user_name">User Name :</string>
+
+    <string name="homeTitle">Home</string>
+    <string name="homeAddCustomer">Add Customer</string>
+    <string name="homeAddAdmin">Add Admin</string>
+
+    <string name="issuing">Issuing Invoices</string>
+    <string name="currentreading">current reading</string>
+    <string name="bill">Bill</string>
+    <string name="save">Save</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="keloprice">kelo price</string>
+
+
+</resources>

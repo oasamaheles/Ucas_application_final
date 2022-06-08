@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "603524540769",
+    "project_id": "ucas-project",
+    "storage_bucket": "ucas-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603524540769:android:d9ac00ae0cce3cc5de7d20",
+        "android_client_info": {
+          "package_name": "com.example.ucasproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603524540769-pdeo1gj5scdfv8mlslr271b6mrgjuhin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ucasproject",
+            "certificate_hash": "6e714dd676f0d4792fa92fdd88f4f7538db89963"
+          }
+        },
+        {
+          "client_id": "603524540769-huk9vh9lfpbp05cmdoj14c42301t7l7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChhpNrfAyx79b8JcHPdEeT3M9IM8pZY5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603524540769-huk9vh9lfpbp05cmdoj14c42301t7l7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">مواتير</string>
+    <string name="act_add_customer_title">إنشاء مستخدم جديد</string>
+    <string name="act_add_customer_name1">الاسم الأول</string>
+    <string name="act_add_customer_name2">اسم العائلة</string>
+    <string name="act_add_customer_address">العنوان</string>
+    <string name="act_add_customer_code">رقم الاشتراك</string>
+    <string name="act_add_customer_phone">رقم الهاتف</string>
+    <string name="act_add_customer_add">إضافة المستخدم</string>
+    /////////////////////////////////////////////////////////
+    <string name="act_back_home_change">عملية تغيير كلمة المرور</string>
+    <string name="act_back_home_successfully">تم الانتهاء بنجاح</string>
+    <string name="act_back_home_logIn">تسجيل الدخول</string>
+    //////////////////////////////////////////////////////
+    <string name="act_changePassword_title">تغير كلمة المرور</string>
+    <string name="act_changePassword_currentP">كلمة المرور القديمة</string>
+    <string name="act_changePassword_newP">كلمة المرور الجديدة</string>
+    <string name="act_changePassword_confirmP">تأكيد كلمة المرور</string>
+    <string name="act_changePassword_update">تحديث</string>
+    //////////////////////////////////////////////////////
+    <string name="act_setting_title">الإعدادت</string>
+    <string name="act_setting_account">الحساب</string>
+    <string name="act_setting_changePassword">تغير كلمة المرور</string>
+    <string name="act_setting_others">آخر</string>
+    <string name="act_setting_privacy">سياسة الخصوصية</string>
+    <string name="act_setting_terms">الشروط والأحكام</string>
+    <string name="act_setting_logout">تسجيل الخروج</string>
+    <string name="act_setting_payments">الدفعات</string>
+    <string name="act_setting_calculator">الحاسبة</string>
+    /////////////////////////////////////////////////////
+    <string name="act_login_title">تسجيل</string>
+    <string name="act_login_password">كلمة المرور</string>
+    <string name="act_login_dontHave">ليس لديك حساب؟ إنشاء حساب جديد</string>
+    //////////////////////////////////////////////////////////////////////
+    <string name="act_invoice">فاتورتي</string>
+    //////////////////////////////////////////
+    <string name="act_screen_title">مرحباً بكم</string>
+    <string name="act_screen_login">تسجيل دخول</string>
+    <string name="act_screen_signup">تسجيل جديد</string>
+    ///////////////////////////////////////////////////
+    <string name="act_signup_title">تسجيل جديد</string>
+    <string name="act_signup_name">الإسم</string>
+    <string name="act_signup_subscription">رقم الإشتراك</string>
+    <string name="act_signup_email">الإيميل</string>
+    <string name="act_signup_password">كلمة المرور</string>
+    <string name="act_signup_repassword">إعادة كلمة المرور</string>
+    <string name="act_signup_signUp">تسجيل</string>
+    <string name="act_signup_already">هل لديك حساب بالفعل ؟ تسجيل الدخول</string>
+    /////////////////////////////////////////////////////////////////////////
+    <string name="act_item_recy">مدفوع</string>
+    //////////////////////////////////////////
+    <string name="act_addAdmin_title">إنشاء مسؤول جديد</string>
+    <string name="act_addAdmin_add">إضافة مسؤول</string>
+    //////////////////////////////////////////////////
+    <string name="act_invoiceAn_name">اإسم</string>
+    <string name="act_invoiceAn_phone">رقم الهاتف</string>
+    <string name="act_invoiceAn_date">تاريخ القراءة</string>
+    <string name="act_invoiceAn_counter">رقم العداد</string>
+    <string name="act_invoiceAn_current">Cقراءة العداد الحالي</string>
+    <string name="act_invoiceAn_address">العنوان</string>
+    <string name="act_invoiceAn_sure">متأكد من صحة البيانات..</string>
+    <string name="act_invoiceAn_send">ارسال النتيجة</string>
+    //////////////////////////////////////////////////////
+    <string name="item_customer_name">اسم المستخدم :</string>
+    <string name="item_customer_id">كود المستخدم :</string>
+    <string name="item_customer_date">فاتورة الشهر :</string>
+    <string name="item_customer_balance">: Balance</string>
+
+    <string name="act_address">العنوان :</string>
+    <string name="act_kilos">الاستهلاك بالكيلوغرام :</string>
+    <string name="act_old">القراءة القديمة :</string>
+    <string name="act_new">القراءة الجديدة :</string>
+    <string name="act_arrears">المتأخرات :</string>
+    <string name="act_unitPrice">سعر الوحدة :</string>
+    <string name="act_balance">توازن :</string>
+    <string name="act_unpaid">غير مسددة</string>
+    <string name="act_paid">مسددة</string>
+
+    <string name="search">بحث...</string>
+    <string name="finshSuccessfull">تمت بنجاح</string>
+    <string name="DoneChangePassword">تم تغيير كلمة المرور بنجاح</string>
+    <string name="ok">حسناً</string>
+    <string name="profile">الملف الشخصي</string>
+
+    <string name="userName">إسم المستخدم</string>
+    <string name="userId">Id</string>
+    <string name="subscriptionnumber">رقم الإشتراك</string>
+
+    <string name="enterTheCorrectPassword">الرجاء إدخال كلمة السر الصحيحة</string>
+    <string name="pleaseCompleteAllVales">الرجاء ملئ جميع الحقول</string>
+    <string name="checkInternet">لم يتم الحفظ تحقق من الانترنت وحاول مرة اخرى</string>
+
+    <string name="reSend">إعادة الإرسال ؟</string>
+
+    <string name="saved">تم الحفظ بنجاح</string>
+    <string name="cant_saved">لم يتم الحفظ تأكد من الانترنت</string>
+
+    <string name="user_name">اسم المستخدم :</string>
+
+    <string name="homeTitle">الرئيسية</string>
+    <string name="homeAddCustomer">اضافة مستحدم</string>
+    <string name="homeAddAdmin">اضافة عامل</string>
+
+    <string name="issuing">إصدار الفواتير</string>
+
+    <string name="currentreading">القراءة الحالية</string>
+    <string name="bill">الفاتورة</string>
+    <string name="save">حفظ</string>
+
+</resources>

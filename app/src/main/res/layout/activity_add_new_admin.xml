@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_user_admin.AddNewAdminActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/pbAddNewAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:indeterminate="true"
+            android:indeterminateDrawable="@drawable/progress_back"
+            android:visibility="gone"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_signup_Subscription" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/titleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:title="@string/homeAddAdmin"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            app:titleTextColor="@color/black" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/addNewAdminImage"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:background="@drawable/img_user_register"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/user" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_admin"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:textColorHint="#A6A6A6"
+            app:boxStrokeColor="#5ADDF6"
+            app:hintTextColor="#5ADDF6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userImgSign">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editAddAdminUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="@dimen/_7sdp"
+                android:ems="10"
+                android:hint="@string/act_add_customer_name1"
+                android:inputType="text"
+                android:padding="@dimen/_8sdp"
+                android:textColorHighlight="#0888ED"
+                android:textSize="@dimen/_12ssp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_admin_3"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:textColorHint="#A6A6A6"
+            app:boxStrokeColor="#5ADDF6"
+            app:hintTextColor="#5ADDF6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userImgSign">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editAddAdminPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="@dimen/_7sdp"
+                android:ems="10"
+                android:hint="@string/act_add_customer_phone"
+                android:inputType="text"
+                android:padding="@dimen/_8sdp"
+                android:textColorHighlight="#0888ED"
+                android:textSize="@dimen/_12ssp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_admin_2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:textColorHint="#A6A6A6"
+            app:boxStrokeColor="#5ADDF6"
+            app:hintTextColor="#5ADDF6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userImgSign">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editAddAdminAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="@dimen/_7sdp"
+                android:ems="10"
+                android:hint="@string/act_add_customer_address"
+                android:inputType="text"
+                android:padding="@dimen/_8sdp"
+                android:textColorHighlight="#0888ED"
+                android:textSize="@dimen/_12ssp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/text_admin_4"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:textColorHint="#A6A6A6"
+            app:boxStrokeColor="#5ADDF6"
+            app:hintTextColor="#5ADDF6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/userImgSign"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editAddAdminSubscription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawablePadding="@dimen/_7sdp"
+                android:ems="10"
+                android:inputType="number"
+                android:drawableLeft="@drawable/ic_subscription"
+                android:hint="@string/act_add_customer_code"
+                android:padding="@dimen/_8sdp"
+                android:textColorHighlight="#0888ED"
+                android:textSize="@dimen/_12ssp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            app:cardCornerRadius="@dimen/_5sdp"
+            app:cardElevation="@dimen/_15sdp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnAddNewAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_log_in"
+                android:text="@string/act_add_customer_add"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp" />
+        </androidx.cardview.widget.CardView>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</LinearLayout>
