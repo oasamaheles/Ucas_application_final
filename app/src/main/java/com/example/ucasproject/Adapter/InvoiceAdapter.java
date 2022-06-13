@@ -29,7 +29,8 @@ public class InvoiceAdapter extends RecyclerView.Adapter<InvoiceAdapter.InvoiceH
     public InvoiceAdapter.InvoiceHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.invouce,parent,false);
-        return new InvoiceAdapter.InvoiceHolder(v);    }
+        return new InvoiceAdapter.InvoiceHolder(v);
+    }
 
     @Override
     public void onBindViewHolder(@NonNull InvoiceAdapter.InvoiceHolder holder, int position) {

@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/_10sdp"
         android:text="OSAMA Hillis"
-        android:textColor="@color/purple_500"
+        android:textColor="#4601E4"
         android:textSize="@dimen/_18ssp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView7"
