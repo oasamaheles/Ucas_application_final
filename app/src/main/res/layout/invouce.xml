@@ -26,7 +26,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:src="@tools:sample/avatars" />
+                android:src="@drawable/mask_group24" />
 
             <TextView
                 android:id="@+id/numId_invouce"
