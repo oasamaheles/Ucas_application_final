@@ -18,7 +18,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
-import com.example.ucasproject.HomeActivity;
+import com.example.ucasproject.InvoiceActivity;
 import com.example.ucasproject.Models.Admin;
 import com.example.ucasproject.R;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -105,7 +105,7 @@ public class AddNewAdminActivity extends AppCompatActivity {
                             btnAddNewAdmin.setVisibility(View.VISIBLE);
 
                             Toast.makeText(AddNewAdminActivity.this, R.string.finshSuccessfull, Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                            Intent intent = new Intent(getApplicationContext(), InvoiceActivity.class);
                             startActivity(intent);
                             finish();
                         }

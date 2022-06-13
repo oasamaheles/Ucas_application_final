@@ -1,4 +1,4 @@
-package com.example.ucasproject;
+package com.example.ucasproject.LoginRegister;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.ProgressBar;
+
+import com.example.ucasproject.MainActivity;
+import com.example.ucasproject.R;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {

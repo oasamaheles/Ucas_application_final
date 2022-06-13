@@ -8,16 +8,14 @@
     android:overScrollMode="always"
     tools:context=".LoginRegister.RegisterActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/titleRegister"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        app:layout_constraintEnd_toEndOf="parent"
+    <androidx.constraintlayout.utils.widget.ImageFilterButton
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_16sdp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="@string/act_signup_title"
-        app:titleTextAppearance="@style/Toolbar.TitleText"
-        app:titleTextColor="@color/black" />
+        app:srcCompat="@drawable/ic_back" />
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/userImgSign"
@@ -31,6 +29,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/titleLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/act_signup_signUp"
+        android:layout_margin="@dimen/_16sdp"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        android:textSize="@dimen/_22ssp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:titleTextColor="@color/black" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout1"

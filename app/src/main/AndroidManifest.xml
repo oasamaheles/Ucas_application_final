@@ -13,14 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UcasProject">
         <activity
+            android:name=".ShowAllInvoice"
+            android:exported="false" />
+        <activity
             android:name=".AllScreen"
             android:exported="true">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".IssuingActivity"
             android:exported="false" />
@@ -31,11 +34,11 @@
             android:name=".Add_user_admin.AddNewUserActivity"
             android:exported="false" />
         <activity
-            android:name=".HomeActivity"
+            android:name=".InvoiceActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashActivity"
-            android:exported="true"/>
+            android:name=".LoginRegister.SplashActivity"
+            android:exported="true" />
         <activity
             android:name=".LoginRegister.LoginActivity"
             android:exported="false" />

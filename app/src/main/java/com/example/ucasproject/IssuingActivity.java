@@ -76,7 +76,7 @@ public class IssuingActivity extends AppCompatActivity {
                             pbIssuing.setVisibility(View.GONE);
                             btnIssuingSave.setVisibility(View.VISIBLE);
                             Toast.makeText(IssuingActivity.this, R.string.finshSuccessfull, Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                            Intent intent = new Intent(getApplicationContext(), InvoiceActivity.class);
                             startActivity(intent);
                             finish();
                         }

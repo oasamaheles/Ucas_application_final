@@ -17,7 +17,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.example.ucasproject.HomeActivity;
+import com.example.ucasproject.InvoiceActivity;
 import com.example.ucasproject.Models.User;
 import com.example.ucasproject.R;
 import com.google.android.gms.tasks.OnFailureListener;
@@ -107,7 +107,7 @@ public class AddNewUserActivity extends AppCompatActivity {
                             btnAddNewUser.setVisibility(View.VISIBLE);
 
                             Toast.makeText(AddNewUserActivity.this, R.string.finshSuccessfull, Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                            Intent intent = new Intent(getApplicationContext(), InvoiceActivity.class);
                             startActivity(intent);
                             finish();
                         }
