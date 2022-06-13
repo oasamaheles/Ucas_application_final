@@ -38,30 +38,29 @@
         android:id="@+id/textInputLayout4"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="@dimen/_200sdp"
-        android:layout_height="@dimen/_36sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_30sdp"
         android:layout_weight="1"
         android:textColorHint="#A6A6A6"
         app:boxStrokeColor="#5ADDF6"
         app:hintTextColor="#5ADDF6"
-        android:layout_marginTop="@dimen/_10sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_2">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/textLoginId"
-            android:layout_width="@dimen/_200sdp"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
             android:hint="Id Account"
             android:inputType="number"
             android:drawablePadding="@dimen/_7sdp"
             android:textColorHighlight="#0888ED"
             android:drawableLeft="@drawable/ic_subscription"
-            android:textSize="@dimen/_14ssp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="441dp" />
+            android:ems="10"
+            android:textSize="@dimen/_12ssp"
+             />
     </com.google.android.material.textfield.TextInputLayout>
 
 

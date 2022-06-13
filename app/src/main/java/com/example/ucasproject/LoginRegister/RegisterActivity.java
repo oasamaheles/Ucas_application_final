@@ -99,7 +99,7 @@ public class RegisterActivity extends AppCompatActivity {
                         "+97" + editSignupPhone.getText().toString(),
                         60,
                         TimeUnit.SECONDS,
-                        RegisterActivity.this,
+                 RegisterActivity.this,
                         new PhoneAuthProvider.OnVerificationStateChangedCallbacks() {
                             @Override
                             public void onVerificationCompleted(@NonNull PhoneAuthCredential phoneAuthCredential) {

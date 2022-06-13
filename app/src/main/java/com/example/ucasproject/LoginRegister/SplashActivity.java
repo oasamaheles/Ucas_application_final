@@ -11,7 +11,6 @@ import android.widget.ProgressBar;
 import com.example.ucasproject.MainActivity;
 import com.example.ucasproject.R;
 
-@SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
     private ProgressBar progressBar;
 

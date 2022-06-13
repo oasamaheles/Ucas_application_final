@@ -31,17 +31,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/cardAddAddmin">
 
-        <androidx.cardview.widget.CardView
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/white">
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:elevation="@dimen/_100sdp">
 
-                <androidx.constraintlayout.utils.widget.ImageFilterView
+        <androidx.constraintlayout.utils.widget.ImageFilterView
                     android:id="@+id/imageView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -68,7 +64,6 @@
                     app:layout_constraintTop_toBottomOf="@id/imageView2" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-        </androidx.cardview.widget.CardView>
 
     </androidx.cardview.widget.CardView>
 
@@ -76,7 +71,7 @@
         android:id="@+id/cardAddAddmin"
         android:layout_width="@dimen/_120sdp"
         android:layout_height="@dimen/_120sdp"
-        android:layout_margin="@dimen/_50sdp"
+        android:layout_margin="@dimen/_30sdp"
         app:cardCornerRadius="@dimen/_10sdp"
         app:cardElevation="@dimen/_50sdp"
         app:layout_constraintEnd_toEndOf="parent"

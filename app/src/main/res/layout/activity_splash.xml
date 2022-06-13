@@ -7,7 +7,7 @@
     android:background="@drawable/main_background"
     tools:context=".LoginRegister.SplashActivity">
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <androidx.constraintlayout.utils.widget.ImageFilterView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ellipse3"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <androidx.constraintlayout.utils.widget.ImageFilterView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ellipse4"
@@ -27,7 +27,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
-    <de.hdodenhof.circleimageview.CircleImageView
+    <androidx.constraintlayout.utils.widget.ImageFilterView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/icon"
