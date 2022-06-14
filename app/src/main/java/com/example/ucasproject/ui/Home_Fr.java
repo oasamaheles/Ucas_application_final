@@ -13,10 +13,11 @@ import android.view.ViewGroup;
 import com.example.ucasproject.Add_user_admin.AddNewAdminActivity;
 import com.example.ucasproject.Add_user_admin.AddNewUserActivity;
 import com.example.ucasproject.IssuingActivity;
+import com.example.ucasproject.Profile_Activity;
 import com.example.ucasproject.R;
 
 public class Home_Fr extends Fragment {
-    CardView cardAddAdmin , cardAddUser , cardAddBill;
+    CardView cardAddAdmin , cardAddUser , cardAddBill,cardProfile;
 
     public Home_Fr() {
     }
@@ -28,6 +29,15 @@ public class Home_Fr extends Fragment {
         cardAddAdmin = rootView. findViewById(R.id.cardAddAddmin);
         cardAddUser =  rootView.findViewById(R.id.cardAddCustomer);
         cardAddBill =  rootView.findViewById(R.id.cardAddBill);
+        cardProfile =  rootView.findViewById(R.id.cardProfile);
+
+        cardProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), Profile_Activity.class);
+                startActivity(intent);
+            }
+        });
 
 
         cardAddUser.setOnClickListener(new View.OnClickListener() {

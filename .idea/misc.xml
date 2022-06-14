@@ -13,6 +13,7 @@
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/btn_log_in.xml" value="0.121" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/btn_paid_back.xml" value="0.1495" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/btn_unpaid.xml" value="0.129" />
+        <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/btn_unpaid_back.xml" value="0.129" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/customer_item_back.xml" value="0.1135" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/ic_baseline_graphic_eq_24.xml" value="0.1295" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/ic_call.xml" value="0.1305" />
@@ -25,6 +26,7 @@
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/logo.xml" value="0.1135" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/main_background.xml" value="0.1495" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/password_back.xml" value="0.1495" />
+        <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/profile_cv1.xml" value="0.129" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/progress_back.xml" value="0.1495" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/reading_oval.xml" value="0.1135" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/font/aclonica.xml" value="0.2388888888888889" />
@@ -38,13 +40,14 @@
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/activity_profile.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/activity_show_all_invoice.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/activity_splash.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/custom_notifications.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/fragment_calculator.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/fragment_home.xml" value="0.25" />
-        <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/fragment_home_.xml" value="0.176" />
+        <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/fragment_home_.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/fragment_home__screen.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/fragment_messages_.xml" value="0.16799999999999998" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/fragment_notifications.xml" value="0.25" />

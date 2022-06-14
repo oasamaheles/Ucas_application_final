@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UcasProject">
         <activity
+            android:name=".Profile_Activity"
+            android:exported="false" />
+        <activity
             android:name=".InvoiceDetails"
             android:exported="false" />
         <activity
@@ -20,7 +23,13 @@
             android:exported="false" />
         <activity
             android:name=".AllScreen"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".IssuingActivity"
             android:exported="false" />
@@ -35,13 +44,7 @@
             android:exported="false" />
         <activity
             android:name=".LoginRegister.SplashActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".LoginRegister.LoginActivity"
             android:exported="false" />
