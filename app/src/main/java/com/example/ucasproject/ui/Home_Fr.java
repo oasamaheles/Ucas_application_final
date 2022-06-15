@@ -15,9 +15,10 @@ import com.example.ucasproject.Add_user_admin.AddNewUserActivity;
 import com.example.ucasproject.IssuingActivity;
 import com.example.ucasproject.Profile_Activity;
 import com.example.ucasproject.R;
+import com.example.ucasproject.ShowAllAdmin_Activity;
 
 public class Home_Fr extends Fragment {
-    CardView cardAddAdmin , cardAddUser , cardAddBill,cardProfile;
+    CardView cardAddAdmin , cardAddUser , cardAddBill,cardProfile,cardShowAllAdmin;
 
     public Home_Fr() {
     }
@@ -30,6 +31,15 @@ public class Home_Fr extends Fragment {
         cardAddUser =  rootView.findViewById(R.id.cardAddCustomer);
         cardAddBill =  rootView.findViewById(R.id.cardAddBill);
         cardProfile =  rootView.findViewById(R.id.cardProfile);
+        cardShowAllAdmin =  rootView.findViewById(R.id.cardshowAllAdmin);
+
+        cardShowAllAdmin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), ShowAllAdmin_Activity.class);
+                startActivity(intent);
+            }
+        });
 
         cardProfile.setOnClickListener(new View.OnClickListener() {
             @Override

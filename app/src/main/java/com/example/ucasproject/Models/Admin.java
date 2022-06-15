@@ -10,6 +10,13 @@ public class Admin {
     public Admin() {
     }
 
+    public Admin(String adminFirstName, String adminAddress, String adminPhoneNumber, String adminImgUrl) {
+        this.adminFirstName = adminFirstName;
+        this.adminAddress = adminAddress;
+        this.adminPhoneNumber = adminPhoneNumber;
+        this.adminImgUrl = adminImgUrl;
+    }
+
     public Admin(String adminFirstName, String adminAddress, String adminPhoneNumber) {
         this.adminFirstName = adminFirstName;
         this.adminAddress = adminAddress;

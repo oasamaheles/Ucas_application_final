@@ -21,30 +21,31 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="@dimen/_10sdp"
         android:padding="@dimen/_5sdp"
-        tools:listitem="@layout/custom_notifications"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:listitem="@layout/custom_notifications" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginBottom="@dimen/_100sdp"
+        android:backgroundTint="#5663FF"
         android:clickable="true"
         android:elevation="@dimen/_40ssp"
-        app:elevation="@dimen/_40ssp"
         android:src="@drawable/add_msg"
+        app:elevation="@dimen/_40ssp"
         app:fabCustomSize="@dimen/_50sdp"
-        android:backgroundTint="#5663FF"
-        android:layout_margin="@dimen/_30ssp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:contentDescription="TODO" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

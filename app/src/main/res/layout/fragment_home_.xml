@@ -245,7 +245,7 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardAddBill_3"
+        android:id="@+id/cardshowAllAdmin"
         android:layout_width="@dimen/_120sdp"
         android:layout_height="@dimen/_120sdp"
         android:layout_margin="@dimen/_20sdp"
@@ -266,15 +266,16 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_20sdp"
                 android:scaleType="center"
-                android:src="@drawable/technical_support"
+                android:src="@drawable/admins"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                android:id="@+id/showAllAdmin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Technical support"
+                android:text="Show AllAdmin"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_14ssp"
                 android:textStyle="bold"

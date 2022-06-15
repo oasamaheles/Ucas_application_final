@@ -5,4 +5,6 @@ import com.example.ucasproject.Models.Notifications;
 
 public interface OnRVItemClickListener1 {
     void onItemClicked(Notifications notifications);
+    void applyTexts(String notifications);
+
 }
