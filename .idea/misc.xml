@@ -22,6 +22,7 @@
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/ic_password.xml" value="0.128" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/ic_person.xml" value="0.1305" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/ic_subscription.xml" value="0.1305" />
+        <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/img_user_home.xml" value="0.1425" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/location.xml" value="0.1305" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/logo.xml" value="0.1135" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/drawable/main_background.xml" value="0.1495" />
@@ -45,6 +46,7 @@
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/activity_show_all_admin.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/activity_show_all_invoice.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/activity_user_home.xml" value="0.2" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/admin.xml" value="0.25" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/custom_notifications.xml" value="0.264" />
         <entry key="..\:/AndroidStudioProjects/ucas-application-master/ucas-application-master/app/src/main/res/layout/dialog.xml" value="0.25" />

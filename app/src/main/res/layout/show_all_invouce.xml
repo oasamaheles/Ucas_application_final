@@ -9,7 +9,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="@dimen/_130sdp"
-        android:layout_margin="@dimen/_12sdp"
+        android:layout_margin="@dimen/_10sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" >
@@ -110,7 +110,7 @@
                 android:layout_height="@dimen/_30sdp"
                 android:padding="@dimen/_6sdp"
                 android:text="5525"
-                android:textSize="@dimen/_13ssp"
+                android:textSize="@dimen/_12ssp"
                 app:layout_constraintBottom_toBottomOf="@+id/textView6"
                 app:layout_constraintStart_toEndOf="@+id/textView6"
                 app:layout_constraintTop_toTopOf="@+id/textView6" />
@@ -119,8 +119,8 @@
                 android:id="@+id/text_5"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_30sdp"
-                android:padding="@dimen/_6sdp"
                 android:text="ILS"
+                android:gravity="center"
                 android:textColor="@color/purple_200"
                 android:textSize="@dimen/_12ssp"
                 app:layout_constraintBottom_toBottomOf="@+id/text_4"
